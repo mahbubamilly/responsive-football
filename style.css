@@ -1,0 +1,103 @@
+
+/* -------Body's Style------- */
+body{
+    font-family: 'poppins', sans-serif;
+
+}
+
+/* -----Header's Style---- */
+header{
+    width: 1440px;
+    height: 42px;
+    background-color: #2d25A0;
+    padding-top: 20px;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 1em;
+}
+nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* --------End of Header Style------ */
+
+/* --------First Section' Style ----- */
+section{
+    display: flex;
+    background-color: #2d25A0;
+    width: 1440px;
+    height: 677px;
+    padding-top: 5px;
+}
+h1{
+    font-size: 64;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 26px;
+    margin-top: 80px;
+    line-height: 60px;
+    padding-left: 80px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    padding-left: 400px;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+button{
+    background-color:#E02C6D;
+    border: none;
+    width: 168px;
+    height: 44px;
+    padding: 10px 10px;
+    margin-left: 156px;
+    margin-top: 40px;
+}
+/* ------------End of First Section--------- */
+/* ------------Players Section's Style---------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 180px;
+}
+/*  */
+.player img{
+    width: 300px;
+    height: 220px;
+}
+/* ---------End of Players Grid---------- */
+/* --------------All Highlights ------------- */
+.highlights{
+    display: flex;
+}
+.highlights img{
+    width: 300px;
+    height: 220px;
+}
+/* ------Footer Style------- */
+h4{
+    text-align: center;
+}
+footer{
+    display: flex;
+     width: 483.87px;
+     height: 213px;
+     margin-left: 475px;
+     margin-right: 481.13px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+/* -------------End of Footer Style------- */
