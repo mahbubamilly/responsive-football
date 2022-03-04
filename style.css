@@ -1,3 +1,5 @@
+/* --------google font------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* -------Body's Style------- */
 body{
@@ -26,28 +28,34 @@ nav li a{
 /* --------End of Header Style------ */
 
 /* --------First Section' Style ----- */
-section{
+.fifa-worldcup{
     display: flex;
     background-color: #2d25A0;
     width: 1440px;
-    height: 677px;
-    padding-top: 5px;
+    height: 500px;
+    margin-bottom: opx;
 }
 h1{
-    font-size: 64;
+    width: 400px;
+    height: 230px;
+    font-size: 64px;
     font-weight: 700;
     color: #FFFFFF;
     margin-left: 26px;
     margin-top: 80px;
-    line-height: 60px;
+    line-height: 100px;
     padding-left: 80px;
 }
 .banner img{
     width: 556.01px;
     height: 438px;
-    padding-left: 400px;
-    padding-top: 60px;
+    padding-left: 300px;
+    padding-top: 30px;
     padding-right: 20px;
+}
+.fifa-worldcup:hover .banner img{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
 }
 
 button{
@@ -57,33 +65,58 @@ button{
     height: 44px;
     padding: 10px 10px;
     margin-left: 156px;
-    margin-top: 40px;
 }
 /* ------------End of First Section--------- */
 /* ------------Players Section's Style---------- */
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    background-color:#f3f1ff;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 1050px;
 }
 .player{
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    margin-left: 180px;
+    align-items: flex;
+    background-color:white;
+    width: 260px;
+    height: 474;
+    padding: 10px 15px;
+    margin-bottom: 24px;
 }
 /*  */
-.player img{
-    width: 300px;
+.players .player img{
+    width: 260px;
     height: 220px;
 }
 /* ---------End of Players Grid---------- */
 /* --------------All Highlights ------------- */
 .highlights{
     display: flex;
+    background-color:#f3f1ff;
+    width: 1060px;
+    height: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.heading-hlight{
+    padding-left: 10px;
+}
+.second-button{
+     margin-left: 60px;
 }
 .highlights img{
-    width: 300px;
-    height: 220px;
+    width: 567px;
+    height: 425px;
 }
 /* ------Footer Style------- */
 h4{
@@ -98,6 +131,13 @@ footer{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-icons{
+    display: flex;
+    margin-left: 200px;
 }
 /* -------------End of Footer Style------- */
